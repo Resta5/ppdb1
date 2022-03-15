@@ -13,7 +13,7 @@ class EmailController extends Controller
     {
         $isi_email = [
             'title' => 'SMKN 3 BANDUNG',
-            'body' => 'Selamat Anda Kena prank',
+            'body' => 'Selamat Anda Lulus',
         ];
 
         Mail::to('muhamadrestha5@gmail.com')->send(new SendEmail($isi_email));

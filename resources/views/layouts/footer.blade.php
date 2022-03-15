@@ -29,7 +29,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="tentang">Tentang kami</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="motivasi">motivasi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lokasi">Lokasi</a></li>
             </ul>
           </div>
 

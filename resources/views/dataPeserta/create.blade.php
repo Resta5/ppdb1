@@ -52,22 +52,14 @@ Data Diri Calon Pendaftar
                 </div>
             </div>
             </div>
-<div class="row">
+            <div class="row">
             <div class="col-sm-12">
-                <!-- select -->
                 <div class="form-group">
                     <label>Tempat Lahir</label>
-                    <select name="tempat_lahir" class="form-control">
-                    <option value="tempat_lahir">Pilih</option>
-                        <option>Bandung</option>
-                        <option>Jakarta</option>
-                        <option>Bali</option>
-                        <option>Yogyakarta</option>
-                        <option>Bogor</option>
-                    </select>
+                    <input type="text" class="form-control" name="tempat_lahir" placeholder="Tempat Lahir"></text>
                 </div>
             </div>
-            </div>
+        </div>
             <div class="row">
             <div class="col-sm-12">
                 <div class="form-group">
@@ -117,9 +109,9 @@ Data Diri Calon Pendaftar
                     <option value="asal_kab_kota">Pilih</option>
                         <option>Bandung</option>
                         <option>Jakarta</option>
-                        <option>Palmebang</option>
-                        <option>Bali</option>
-                        <option>Yogyakarta</option>
+                        <option>Palembang</option>
+                        <option>Denpasar</option>
+                        <option>Sleman</option>
                     </select>
                 </div>
             </div>
@@ -145,7 +137,7 @@ Data Diri Calon Pendaftar
                 <!-- text input -->
                 <div class="form-group">
                     <label>Alamat</label>
-                    <input type="text" class="form-control" name="alamat" placeholder="alamat">
+                    <textarea id="alamat" class="form-control" name="alamat" rows="5" cols="100"  placeholder="Alamat"></textarea>
                 </div>
             </div>
         </div>
@@ -206,7 +198,7 @@ Data Diri Calon Pendaftar
                 <!-- text input -->
                 <div class="form-group">
                     <label>Alamat Ortu</label>
-                    <input type="text" class="form-control" name="alamat_ortu" placeholder="Alamat Orang Tua">
+                    <textarea id="alamat_ortu" class="form-control" name="alamat_ortu" rows="5" cols="100"  placeholder="Alamat Orang Tua"></textarea>
                 </div>
             </div>
         </div>

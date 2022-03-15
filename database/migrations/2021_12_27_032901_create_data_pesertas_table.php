@@ -32,6 +32,7 @@ class CreateDataPesertasTable extends Migration
             $table->string('pekerjaan_ortu');
             $table->bigInteger('no_hp_ortu');
             $table->string('alamat_ortu');
+            $table->string('email');
             $table->timestamps();
         });
     }

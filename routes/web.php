@@ -48,6 +48,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function (){
         Route::resource('dataPeserta', App\Http\Controllers\DataPesertaController::class);
         Route::resource('berkasPeserta', App\Http\Controllers\BerkasPesertaController::class);
         Route::resource('admin',App\Http\Controllers\AdminController::class);
+        Route::resource('email', EmailController::class);
 });
 
 

@@ -36,7 +36,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                         <div class="card">
-                    <div class="card-header bg-info text-light">
+                    <div class="card-header text-light">
                         Pendaftaran
                             <a href="{{ route('dataPeserta.create')}}" class="btn btn-primary float-right">Tambah</a>
                             <a href="/admin/cetak-datapeserta" class="btn btn-primary float-right col-sm-2 ml-1"><span class="fa fa-file">&nbsp;</span> Convert PDF</a>

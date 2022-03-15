@@ -33,13 +33,6 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-7 footer-newsletter">
-            <p><h4><a>Jika Ingin daftar silahkan login menggunakan akun
-            <br>peserta@gmail.com
-            <br>123456789</a></h4></p>
-
-          </div>
-
         </div>
       </div>
     </div>

@@ -43,9 +43,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function (){
         return view('berkasPeserta.index');
 });
 
-        Route::get('cetakDataPeserta', [App\Http\Controllers\dataPesertaController::class, 'cetakDataPeserta'])->name('cetakDataPeserta');
+        Route::get('cetakDataPeserta', [App\Http\Controllers\DataPesertaController::class, 'cetakDataPeserta'])->name('cetakDataPeserta');
 
-        Route::resource('dataPeserta', App\Http\Controllers\dataPesertaController::class);
+        Route::resource('dataPeserta', App\Http\Controllers\DataPesertaController::class);
         Route::resource('berkasPeserta', App\Http\Controllers\berkasPesertaController::class);
         Route::resource('admin',App\Http\Controllers\adminController::class);
 });
@@ -55,10 +55,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function (){
         Route::get('cetak', function() {
             return view('cetak.index');
     });
-        Route::resource('dataPeserta', App\Http\Controllers\dataPesertaController::class);
+        Route::resource('dataPeserta', App\Http\Controllers\DataPesertaController::class);
         Route::resource('cetak', App\Http\Controllers\laporanController::class);
         Route::resource('berkasPeserta', App\Http\Controllers\berkasPesertaController::class);
-        Route::get('cetak-datapeserta', [App\Http\Controllers\dataPesertaController::class, 'cetakDataPeserta']);
+        Route::get('cetak-datapeserta', [App\Http\Controllers\DataPesertaController::class, 'cetakDataPeserta']);
 
     Route::get('motivasi', function(){
         return view('motivasi');

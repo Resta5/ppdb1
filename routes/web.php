@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\dataPesertaController;
+use App\Http\Controllers\DataPesertaController;
 use App\Http\Controllers\BerkasPesertaController;
 use App\Http\Controllers\CetakLaporanController;
 use App\Http\Controllers\adminController;

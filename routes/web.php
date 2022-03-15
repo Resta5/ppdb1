@@ -45,7 +45,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function (){
 
         Route::get('cetakDataPeserta', [App\Http\Controllers\dataPesertaController::class, 'cetakDataPeserta'])->name('cetakDataPeserta');
 
-        Route::resource('dataPeserta', dataPesertaController::class);
+        Route::resource('dataPeserta', App\Http\Controllers\dataPesertaController::class);
         Route::resource('berkasPeserta', berkasPesertaController::class);
         Route::resource('admin', adminController::class);
 });

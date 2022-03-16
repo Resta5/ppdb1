@@ -202,6 +202,15 @@ Data Diri Calon Pendaftar
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" name="email" placeholder="Masukan Email Anda">
+                </div>
+            </div>
+        </div>
             </div>
         </div>
             <div class="card-footer">

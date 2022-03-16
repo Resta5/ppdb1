@@ -63,6 +63,7 @@ class DataPesertaController extends Controller
             'pekerjaan_ortu' => 'required',
             'no_hp_ortu' => 'required',
             'alamat_ortu' => 'required',
+            'email' => 'required',
         ]);
 
         $dataPeserta = new dataPeserta;
@@ -83,6 +84,7 @@ class DataPesertaController extends Controller
         $dataPeserta->pekerjaan_ortu = $request->pekerjaan_ortu;
         $dataPeserta->no_hp_ortu = $request->no_hp_ortu;
         $dataPeserta->alamat_ortu = $request->alamat_ortu;
+        $dataPeserta->email = $request->email;
         $dataPeserta->save();
         return redirect()->route('berkasPeserta.create');
     }
@@ -138,6 +140,7 @@ class DataPesertaController extends Controller
         $dataPeserta->pekerjaan_ortu = $request->pekerjaan_ortu;
         $dataPeserta->no_hp_ortu = $request->no_hp_ortu;
         $dataPeserta->alamat_ortu = $request->alamat_ortu;
+        $dataPeserta->email = $request->email;
         $dataPeserta->save();
         Session::flash("flash_notification", [
             "level" => "success",

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\berkasPeserta;
 use App\Models\dataPeserta;
+use Session;
 use Illuminate\Http\Request;
 
 class BerkasPesertaController extends Controller
@@ -164,6 +165,10 @@ class BerkasPesertaController extends Controller
             $berkasPeserta->ftcpy_nilai_raport = $name;
         }
         $berkasPeserta->save();
+        Session::flash("flash_notification", [
+            "level" => "success",
+            "message" => "Berhasil menyimpan"
+        ]);
         return redirect()->route('berkasPeserta.index');
     }
 

@@ -12,10 +12,10 @@ class dataPeserta extends Model
     use HasFactory;
     protected $visible = ['nama', 'no_pendaftaran', 'tgl_daftar','jk','tempat_lahir','tgl_lahir','agama',
                           'asal_provinsi','asal_kab_kota','asal_kecamatan','asal_desa_kelurahan','alamat','kode_pos',
-                          'jurusan','nama_ortu','pekerjaan_ortu','no_hp_ortu','alamat_ortu','status_verifikasi','status_kelulusan'];
+                          'jurusan','nama_ortu','pekerjaan_ortu','no_hp_ortu','alamat_ortu','email'];
     protected $fillable = ['nama', 'no_pendaftaran', 'tgl_daftar','jk','tempat_lahir','tgl_lahir','agama',
                            'asal_provinsi','asal_kab_kota','asal_kecamatan','asal_desa_kelurahan','alamat','kode_pos',
-                           'jurusan','nama_ortu','pekerjaan_ortu','no_hp_ortu','alamat_ortu','status_verifikasi','status_kelulusan'];
+                           'jurusan','nama_ortu','pekerjaan_ortu','no_hp_ortu','alamat_ortu','email'];
     public $timestamp = true;
 
     public function berkasPeserta()

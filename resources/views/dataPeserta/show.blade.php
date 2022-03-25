@@ -161,6 +161,15 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" name="alamat_ortu" value="{{$dataPeserta->alamat_ortu}}" disabled>
+                </div>
+            </div>
+        </div>
         <a href="{{route('dataPeserta.index')}}" class="btn btn-success float-right"> Kembali</a>
             </div>
         </div>
